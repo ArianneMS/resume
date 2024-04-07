@@ -1,12 +1,17 @@
 import './normalize.css';
+import Layout from './components/Layout';
+
+
 
 export default function App() {
   return( 
-    <main>
-    Hello Resume!
-    <div>Paragraf</div>
-    </main>
+   <Layout>
+   Schimb textul
+   </Layout>
+  
     )
 }
+
+
 
 
